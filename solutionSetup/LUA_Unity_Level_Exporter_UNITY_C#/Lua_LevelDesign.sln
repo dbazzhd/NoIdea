@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{7F4CF8EE-B217-2A43-4724-568D0551FDE3}") = "Lua_LevelDesign", "Assembly-CSharp.csproj", "{5CE58BF0-F5C8-E1C2-2F12-B24125ABFC31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CE58BF0-F5C8-E1C2-2F12-B24125ABFC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE58BF0-F5C8-E1C2-2F12-B24125ABFC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE58BF0-F5C8-E1C2-2F12-B24125ABFC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE58BF0-F5C8-E1C2-2F12-B24125ABFC31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

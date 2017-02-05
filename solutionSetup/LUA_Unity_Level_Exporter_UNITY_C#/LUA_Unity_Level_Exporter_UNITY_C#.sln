@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LUA_Unity_Level_Exporter_UNITY_C#.CSharp", "LUA_Unity_Level_Exporter_UNITY_C#.CSharp.csproj", "{A94FE279-7C3B-4E0F-10DF-6058DDD9CA26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A94FE279-7C3B-4E0F-10DF-6058DDD9CA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94FE279-7C3B-4E0F-10DF-6058DDD9CA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94FE279-7C3B-4E0F-10DF-6058DDD9CA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94FE279-7C3B-4E0F-10DF-6058DDD9CA26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

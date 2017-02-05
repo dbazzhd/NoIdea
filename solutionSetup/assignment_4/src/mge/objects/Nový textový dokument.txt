@@ -1,0 +1,24 @@
+#include "mge/objects/Player.h"
+
+Player::Player(std::string pName, glm::vec3 pPosition, glm::vec3 pColor) : GameObject(pName, pPosition) {
+}
+
+Player::~Player() {
+
+}
+#ifndef PLAYER_hpp
+#define PLAYER_hpp
+
+#include "mge\core\GameObject.hpp"
+
+class Player : public GameObject {
+public:
+	Player(std::string pName, glm::vec3 pPosition, glm::vec3 pColor);
+	~Player();
+	void SetBehaviour(AbstractBehaviour * pAbstractBehaviour);
+private:
+
+};
+
+
+#endif

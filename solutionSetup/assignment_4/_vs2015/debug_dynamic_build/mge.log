@@ -1,0 +1,46 @@
+﻿Build started 5. 2. 2017 19:45:44.
+     1>Project "C:\Users\Majo\Desktop\Škola\2ndYear\3rdQuartile\3rdPersonProject\solutionSetup\assignment_4\_vs2015\mge.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\lua32\include /I../src /I..\vs_2015_v2_2016_2017\vs_extended\include /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"debug_dynamic_build/" /Fd"debug_dynamic_build/vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\mge\MGEDemo.cpp
+         MGEDemo.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug_dynamic_exe/mge.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\vs_2015_v2_2016_2017\vs_extended\lib /LIBPATH:..\vs_2015_v2_2016_2017\vs_extended\lib liblua53.a glew32d.lib opengl32.lib "sfml-graphics-d.lib" "sfml-system-d.lib" "sfml-window-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"debug_dynamic_exe/mge.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"debug_dynamic_exe/mge.lib" /MACHINE:X86 debug_dynamic_build/main.obj
+         debug_dynamic_build/AbstractBehaviour.obj
+         debug_dynamic_build/CameraFollowBehaviour.obj
+         debug_dynamic_build/CameraOrbit.obj
+         debug_dynamic_build/CollisionResolver.obj
+         debug_dynamic_build/KeysBehaviour.obj
+         debug_dynamic_build/LookAt.obj
+         debug_dynamic_build/RotatingBehaviour.obj
+         debug_dynamic_build/AbstractGame.obj
+         debug_dynamic_build/Camera.obj
+         debug_dynamic_build/DirectionalLight.obj
+         debug_dynamic_build/GameObject.obj
+         debug_dynamic_build/Light.obj
+         debug_dynamic_build/LuaParser.obj
+         debug_dynamic_build/Mesh.obj
+         debug_dynamic_build/PointLight.obj
+         debug_dynamic_build/Renderer.obj
+         debug_dynamic_build/ShaderProgram.obj
+         debug_dynamic_build/SpotLight.obj
+         debug_dynamic_build/Texture.obj
+         debug_dynamic_build/World.obj
+         debug_dynamic_build/AbstractMaterial.obj
+         debug_dynamic_build/ColorMaterial.obj
+         debug_dynamic_build/LitMaterial.obj
+         debug_dynamic_build/TerrainMaterial.obj
+         debug_dynamic_build/TextureMaterial.obj
+         debug_dynamic_build/MGEDemo.obj
+         debug_dynamic_build/Coin.obj
+         debug_dynamic_build/Door.obj
+         debug_dynamic_build/Key.obj
+         debug_dynamic_build/Player.obj
+         debug_dynamic_build/TextField.obj
+         debug_dynamic_build/Wall.obj
+         debug_dynamic_build/DebugHud.obj
+         mge.vcxproj -> C:\Users\Majo\Desktop\Škola\2ndYear\3rdQuartile\3rdPersonProject\solutionSetup\assignment_4\_vs2015\debug_dynamic_exe/mge.exe
+     1>Done Building Project "C:\Users\Majo\Desktop\Škola\2ndYear\3rdQuartile\3rdPersonProject\solutionSetup\assignment_4\_vs2015\mge.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.08
