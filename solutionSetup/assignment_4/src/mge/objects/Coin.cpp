@@ -4,7 +4,6 @@ Coin::Coin(std::string pName, glm::vec3 pPosition, glm::vec3 pColor) : GameObjec
 	setMesh(Mesh::load(config::MGE_MODEL_PATH + "cube_unity.obj"));
 	setMaterial(new ColorMaterial(pColor));
 	setTransform(glm::translate(pPosition));
-	std::cout << " SDADSADASDSAD " << std::endl;
 }
 Coin::~Coin() {
 
